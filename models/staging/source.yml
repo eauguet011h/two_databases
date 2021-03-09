@@ -3,15 +3,9 @@ version: 2
 sources:
   - name: bbdd_oasis
     database: "oasis-dwh-011h"
-    dataset: "OASIS_Design"
+    dataset: "OASIS_Design_TEMP"
 
     
     tables:
-     - name: component_type
+     - name: aux_component_type
 
-target: dev
-outputs:
-  dev:
-    type: bigquery
-    project: "oasis-dwh-011h" 
-    dataset: "OASIS_Design_TEST"

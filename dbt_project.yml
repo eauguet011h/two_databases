@@ -41,4 +41,8 @@ models:
   bigquery:
     staging:
       materialized: table
+      database: "oasis-dwh-011h"
+      dataset: "{{env_var ('DATASET', 'OASIS_PRUEBAS')}}" 
+    
+    
       
