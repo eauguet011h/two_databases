@@ -5,6 +5,10 @@ sources:
     database: "oasis-dwh-011h"
     dataset: "OASIS_Design"
 
+    
+    tables:
+     - name: component_type
+
 target: dev
 outputs:
   dev:

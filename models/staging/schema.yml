@@ -1,7 +1,6 @@
 version: 2
 
 models:
-  - name: bom_material_hierarchy
-
+  - name: aux_component_type_test
 
    
