@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bbdd_oasis
+    database: "oasis-dwh-011h"
+    dataset: "OASIS_Design"
+
+target: dev
+outputs:
+  dev:
+    type: bigquery
+    project: "oasis-dwh-011h" 
+    dataset: "OASIS_Design_TEST"
